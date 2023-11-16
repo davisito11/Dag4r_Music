@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F178385.png&f=1&nofb=1&ipt=ddab758c89c604c9090904ddd82ae7ad7b69d1a3d70de64a138e6c99519a9e96&ipo=images)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+form {
+    color: #ffffff;
+    max-width: 400px;
+    margin: 0 auto;
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+   color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+input {
+    background: transparent;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #808080;
+}
+
+p {
+    color: #ffffff;
+    background: transparent;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #808080;
+}
